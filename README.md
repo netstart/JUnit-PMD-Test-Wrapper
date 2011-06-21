@@ -1,7 +1,15 @@
 Wraps the static code analyze tool PMD into a simple JUnit test. 
 
+![alt text](/path/to/img.jpg "Title")
 
-https://github.com/corgrath/JUnit-PMD-Test-Wrapper/raw/master/doc/wiki/add_pmd_file.png
+
+
+!(https://github.com/corgrath/JUnit-PMD-Test-Wrapper/raw/master/doc/wiki/add_pmd_file.png "Title")
+
+![alt text](https://github.com/corgrath/JUnit-PMD-Test-Wrapper/raw/master/doc/wiki/add_pmd_file.png "Title")
+
+![alt text](https://github.com/corgrath/JUnit-PMD-Test-Wrapper/raw/master/doc/wiki/add_pmd_file.png)
+
 
 
 Download
