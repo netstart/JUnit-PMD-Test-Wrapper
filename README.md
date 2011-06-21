@@ -1,7 +1,6 @@
-Wraps the static code analyze tool PMD into a simple JUnit test. 
+Wraps the static code analyze tool [PMD](http://pmd.sourceforge.net/) into a simple JUnit test. 
 
 ![alt text](https://github.com/corgrath/JUnit-PMD-Test-Wrapper/raw/master/doc/wiki/results.png "The JUnit results in Eclipse")
-
 
 
 Download
