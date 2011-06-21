@@ -72,7 +72,6 @@ Run and view the results
 License
 ========================================
 
-JUnit PMD Test Wrapper
-Copyright 2011 Christoffer Pettersson, christoffer@christoffer.me
+JUnit PMD Test Wrapper - Copyright 2011 Christoffer Pettersson, christoffer@christoffer.me
 
 Licensed under the Apache License, Version 2.0
