@@ -6,6 +6,7 @@ Wraps the static code analyze tool [PMD](http://pmd.sourceforge.net/) into a sim
 Download
 ========================================
 Download the latest version here:
+
 https://github.com/corgrath/JUnit-PMD-Test-Wrapper/downloads/
 
 
@@ -35,7 +36,7 @@ Write a JUnit test case using the wrapper.
 
 	package src;
 	
-	import me.christoffer.junitpmdtestwrapper.JUnitPMDTestWrapper;
+	import com.osbcp.junitpmdtestwrapper.JUnitPMDTestWrapper;
 	
 	import org.junit.Test;
 	

@@ -52,9 +52,6 @@ public abstract class JUnitPMDTestWrapper {
 
 		File fileFolderToCheck = new File(folderToCheck);
 
-		int i = 2;
-		int r = 2;
-
 		/*
 		 * Start-up message 
 		 */
