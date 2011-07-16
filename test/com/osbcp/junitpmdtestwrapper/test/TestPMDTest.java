@@ -15,19 +15,20 @@
  * information regarding copyright ownership.
  */
 
-package me.christoffer.junitpmdtestwrapper.test;
+package com.osbcp.junitpmdtestwrapper.test;
 
-import me.christoffer.junitcheckstylewrapper.JunitCheckstyleTestWrapper;
 
 import org.junit.Test;
 
+import com.osbcp.junitpmdtestwrapper.JUnitPMDTestWrapper;
+
 /**
- * Contains the Checkstyle tests
+ * Contains the PMD tests
  * 
  * @author Christoffer Pettersson, christoffer@christoffer.me
  */
 
-public class TestCheckstyleTest {
+public class TestPMDTest {
 
 	/**
 	 * Tests the SRC-folder
@@ -38,7 +39,7 @@ public class TestCheckstyleTest {
 	@Test
 	public void testSrc() throws Exception {
 
-		JunitCheckstyleTestWrapper.run(this, "./src/", "checkstyle.xml");
+		JUnitPMDTestWrapper.run(this, "./src/", "pmd.xml");
 
 	}
 
@@ -51,8 +52,7 @@ public class TestCheckstyleTest {
 	@Test
 	public void testTest() throws Exception {
 
-		JunitCheckstyleTestWrapper.run(this, "./test/", "checkstyle.xml");
+		JUnitPMDTestWrapper.run(this, "./test/", "pmd.xml");
 
 	}
-
 }

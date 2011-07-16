@@ -15,7 +15,7 @@
  * information regarding copyright ownership.
  */
 
-package me.christoffer.junitpmdtestwrapper;
+package com.osbcp.junitpmdtestwrapper;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -51,6 +51,9 @@ public abstract class JUnitPMDTestWrapper {
 	public static void run(final Object testClassInstance, final String folderToCheck, final String ruleFileName) throws IOException {
 
 		File fileFolderToCheck = new File(folderToCheck);
+
+		int i = 2;
+		int r = 2;
 
 		/*
 		 * Start-up message 
@@ -146,13 +149,14 @@ public abstract class JUnitPMDTestWrapper {
 
 		System.out.println("Found " + rowsOut.size() + " errors");
 		for (String error : rowsOut) {
-			System.out.println(error + "\n");
+			System.out.println(error);
 		}
 
 		if (!baosErr.toString().isEmpty()) {
 			System.out.println("Errors:");
 			System.out.println(baosErr.toString());
 		}
+		System.out.println("");
 
 		/*
 		 * Assert

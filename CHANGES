@@ -1,3 +1,9 @@
+v1.2 2011-07-16 Christoffer Pettersson
+
+	* Renamed package structure
+	* Tweaked the test result output
+	
+
 v1.1 2011-06-11 Christoffer Pettersson
  
  * Tweaks to the error output
